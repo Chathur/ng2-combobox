@@ -425,7 +425,7 @@ export class ComboBoxComponent implements ControlValueAccessor, OnInit {
         }
     }
 
-    private clear() {
+    public clear() {
         this.currVal = '';
         this.data = [];
     }
